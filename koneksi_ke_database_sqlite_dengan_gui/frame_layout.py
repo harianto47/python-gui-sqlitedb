@@ -2,7 +2,6 @@ from tkinter import *
 from fungsi import *
 import os
 
-
 os.system("cls")
 
 base = Tk()
@@ -23,8 +22,6 @@ y_coordinate = (screen_height // 2) - (window_height // 2)
 
 # Set the geometry of the window with center position
 base.geometry(f"{window_width}x{window_height}+{x_coordinate}+{y_coordinate}")
-
-
 
 # label 
 label_id()
